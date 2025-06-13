@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class frequencyhash {
+public class integerhashing {
 
   public static int[] array(int n) {
     int array[] = new int[n];
