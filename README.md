@@ -65,7 +65,7 @@ Each folder contains well-named Java files with:
 
 1. Clone this repo:
 ```bash
-git clone https://github.com/yourusername/dsa-java.git
+git clone https://github.com/ashishjha0125/dsa-java.git
 cd dsa-java
 
 
