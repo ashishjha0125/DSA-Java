@@ -12,7 +12,7 @@ public class bubblesort {
       arr[i] = s.nextInt();
 
     }
-    s.close(); // Do not close Scanner if you plan to use System.in elsewhere
+    s.close();
     return arr;
   }
 
