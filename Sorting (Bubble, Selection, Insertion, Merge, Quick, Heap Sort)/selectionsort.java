@@ -31,10 +31,14 @@ public class selectionsort {
 
     int n = array.length;
 
-    for (int i = 0; i <= n - 2; i++) {
-      int minindex = i;
-      for (int j = i; j < n - 1; j++) {
-        if (array[j] < array[minindex]) {
+    for (int i = 0; i <= n - 2; i++) {// Loop through the array to find the minimum element
+      // in the unsorted part of the array
+      int minindex = i;// Assume the first element is the minimum
+      // Find the index of the minimum element in the unsorted part
+      for (int j = i; j < n - 1; j++) {// Loop through the unsorted part of the array
+        // If the current element is smaller than the current minimum, update minindex
+        if (array[j] < array[minindex]) {// Compare the current element with the minimum element
+          // If the current element is smaller, update minindex
           minindex = j;
 
         }
@@ -51,6 +55,7 @@ public class selectionsort {
 
   public static void main(String[] args) {
     int array[] = array();// Calling the method to create an array and store it in a variable
+
     // Calling the method to print the elements of the array
     printarray(array);// This will print the elements of the array
     System.out.println(); // Print a new line for better readability
