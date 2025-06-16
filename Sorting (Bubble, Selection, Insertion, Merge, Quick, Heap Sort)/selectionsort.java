@@ -42,6 +42,7 @@ public class selectionsort {
           minindex = j;
 
         }
+        //
         int temp = array[minindex];
         array[minindex] = array[i];
         array[i] = temp;
