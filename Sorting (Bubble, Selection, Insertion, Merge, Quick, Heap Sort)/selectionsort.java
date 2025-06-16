@@ -42,7 +42,7 @@ public class selectionsort {
           minindex = j;
 
         }
-        //
+        // Swap the found minimum element with the first element of the unsorted part
         int temp = array[minindex];
         array[minindex] = array[i];
         array[i] = temp;
