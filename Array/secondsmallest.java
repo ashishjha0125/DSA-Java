@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class secondsmallest {
 
-  public static int secondsmallest(int array[], int n) {
+  public static int secondSmallest(int array[], int n) {
 
     if (n < 2) {
       return -1; // If there are less than 2 elements, return -1
@@ -32,7 +32,7 @@ public class secondsmallest {
       System.out.println("Enter element " + (i + 1) + ": ");
       array[i] = sc.nextInt(); // Input each element of the array
     }
-    int smallest = secondsmallest(array, size);
+    int smallest = secondSmallest(array, size);
     System.out.println("The second smallest element in the array is: " + smallest);
   }
 
