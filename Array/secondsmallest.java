@@ -34,6 +34,7 @@ public class secondsmallest {
     }
     int smallest = secondSmallest(array, size);
     System.out.println("The second smallest element in the array is: " + smallest);
+    sc.close(); // Close the scanner to prevent resource leaks
   }
 
 }

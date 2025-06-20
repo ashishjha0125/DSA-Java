@@ -56,6 +56,6 @@ public class secondlargest {
 
     int secondlargestOptimised = optimisedmethod(array, size); // Calling the optimised method
     System.out.println("The second largest element in the array using optimised method is: " + secondlargestOptimised);
-
+    sc.close(); // Close the scanner to prevent resource leaks
   }
 }

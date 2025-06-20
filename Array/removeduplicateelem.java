@@ -57,6 +57,7 @@ public class removeduplicateelem {
     for (int i2 = 0; i2 < index2; i2++) {
       System.out.print(array[i2] + " "); // Output the array after removing duplicates using pointer method
     }
+    sc.close(); // Close the scanner to prevent resource leaks
   }
 
 }

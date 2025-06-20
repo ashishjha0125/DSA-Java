@@ -38,6 +38,6 @@ public class largestelement {
 
     int largestOptimised = optimisedmethod(array, size); // Calling the optimised method
     System.out.println("The largest element in the array using optimised method is: " + largestOptimised);
-
+    sc.close(); // Close the scanner to prevent resource leaks
   }
 }
