@@ -26,7 +26,7 @@ public class movezerotoend {
 
   }
 
-  public static int[] optimal(int[] array, int n) {
+  public static int[] optimal(int[] array, int n) { // time complexity O(n) and space complexity is O(1)
     int j = -1;
     for (int i = 0; i < n; i++) {
       if (array[i] == 0) {
@@ -47,6 +47,7 @@ public class movezerotoend {
         array[j] = temp;
         j++;
       }
+
     }
     return array;
   }
@@ -76,6 +77,7 @@ public class movezerotoend {
     for (int num : array2) {
       System.out.println(num);
     }
-
+    s.close();
   }
+
 }
