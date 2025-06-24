@@ -50,7 +50,7 @@ public class arrayunion {
     for (int num : union) {
       System.out.print(num + " ");
     }
-
+    sc.close();
   }
 
 }
