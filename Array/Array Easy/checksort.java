@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class checksort {
 
   public static boolean isSorted(int array[], int n) {
-    for (int i = 0; i <= n - 2; i++) {
+    for (int i = 0; i < n - 1; i++) {
       if (array[i] > array[i + 1]) {
         return false; // If any element is greater than the next, the array is not sorted
       }

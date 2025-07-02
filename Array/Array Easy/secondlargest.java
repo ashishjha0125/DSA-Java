@@ -29,7 +29,7 @@ public class secondlargest {
 
     for (int i = 0; i < n; i++) {
       if (array[i] > largest) {
-        secondlargest = largest; // Update second largest
+        secondlargest = largest; // Update second largest first then assigned the value to the largest.
         largest = array[i];
       } else if (array[i] > secondlargest && array[i] != largest) {
         secondlargest = array[i]; // Update second largest if current element is not equal to largest

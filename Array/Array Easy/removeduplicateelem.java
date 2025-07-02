@@ -1,6 +1,4 @@
-import java.util.Scanner;
-import java.util.Arrays;
-import java.util.LinkedHashSet;
+import java.util.*;
 
 public class removeduplicateelem {
 
