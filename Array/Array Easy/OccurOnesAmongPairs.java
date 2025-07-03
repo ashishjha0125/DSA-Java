@@ -64,7 +64,7 @@ public class OccurOnesAmongPairs {
   public static int uniqueAmongPairs(int[] array, int n) {
     int xor = 0;
 
-    // XOR all elements; duplicates cancel out
+    // XOR all elements; duplicates cancel out a ^ 0 = a, a ^ a = 0
     for (int num : array) {
       xor = xor ^ num;
     }
