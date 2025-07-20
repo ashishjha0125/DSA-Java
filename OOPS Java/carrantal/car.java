@@ -2,7 +2,7 @@ package carrantal;
 
 import java.util.Scanner;
 
-public class car {
+public class car implements mangable {
   private String carName;
   private String carModel;
   private int carYear;

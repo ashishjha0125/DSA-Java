@@ -2,7 +2,7 @@ package carrantal;
 
 import java.util.Scanner;
 
-public class admin extends car implements adminInterface {
+public class admin   {
   String adminId;
   String adminName;
   String adminEmail;
